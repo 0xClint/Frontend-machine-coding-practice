@@ -1,0 +1,12 @@
+.pagination .pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.pagination .pagination-container .page-number-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}

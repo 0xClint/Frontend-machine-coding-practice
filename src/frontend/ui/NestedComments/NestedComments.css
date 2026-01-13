@@ -1,0 +1,12 @@
+.comments-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+.comments-container .new-msg-container{
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+ }

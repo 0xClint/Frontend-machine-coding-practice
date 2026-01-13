@@ -4,7 +4,7 @@ import "./InfiniteScroll.css";
 const LIMIT = 10;
 
 export const InfiniteScroll = () => {
-  const [pageIdx, setPageIdx] = useState(0);
+  const [pageIdx, setPageIdx] = useState(0)
 
   const [data, setData] = useState([]);
 

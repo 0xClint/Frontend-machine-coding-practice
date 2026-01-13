@@ -1,0 +1,34 @@
+.dropdown-container{
+    min-width: 200px;
+    position:relative;
+    
+}
+.dropdown-container .dropdown-header{
+    width: 100%;
+    padding: 5px;
+
+}
+
+.dropdown-container .dropdown-list{
+    width: 100%;
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 3px 0 0 0;
+    border: 1px solid black;
+    
+}
+
+.dropdown-container .dropdown-list.extended {
+    display: block;
+  }
+.dropdown-container .dropdown-list .list-item{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
